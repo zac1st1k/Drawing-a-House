@@ -22,6 +22,7 @@
 		1124A9941A55278B00D68B9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1124A9731A55278B00D68B9D /* UIKit.framework */; };
 		1124A99C1A55278B00D68B9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1124A99A1A55278B00D68B9D /* InfoPlist.strings */; };
 		1124A99E1A55278B00D68B9D /* Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1124A99D1A55278B00D68B9D /* Drawing_a_HouseTests.m */; };
+		1124A9AC1A55299100D68B9D /* XZZHouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1124A9AB1A55299100D68B9D /* XZZHouseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		1124A9991A55278B00D68B9D /* Drawing a HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing a HouseTests-Info.plist"; sourceTree = "<group>"; };
 		1124A99B1A55278B00D68B9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1124A99D1A55278B00D68B9D /* Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+		1124A9AA1A55299100D68B9D /* XZZHouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZZHouseView.h; path = ../XZZHouseView.h; sourceTree = "<group>"; };
+		1124A9AB1A55299100D68B9D /* XZZHouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZZHouseView.m; path = ../XZZHouseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				1124A97F1A55278B00D68B9D /* XZZAppDelegate.m */,
 				1124A9811A55278B00D68B9D /* Main_iPhone.storyboard */,
 				1124A9841A55278B00D68B9D /* Main_iPad.storyboard */,
+				1124A9AA1A55299100D68B9D /* XZZHouseView.h */,
+				1124A9AB1A55299100D68B9D /* XZZHouseView.m */,
 				1124A9871A55278B00D68B9D /* XZZViewController.h */,
 				1124A9881A55278B00D68B9D /* XZZViewController.m */,
 				1124A98A1A55278B00D68B9D /* Images.xcassets */,
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1124A9AC1A55299100D68B9D /* XZZHouseView.m in Sources */,
 				1124A97C1A55278B00D68B9D /* main.m in Sources */,
 				1124A9801A55278B00D68B9D /* XZZAppDelegate.m in Sources */,
 				1124A9891A55278B00D68B9D /* XZZViewController.m in Sources */,
