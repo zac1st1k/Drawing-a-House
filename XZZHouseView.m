@@ -33,6 +33,8 @@
     [house addLineToPoint:CGPointMake(1/4.0 * self.bounds.size.width, 3/4.0 * self.bounds.size.height)];
     [house addLineToPoint:CGPointMake(1/4.0 * self.bounds.size.width, 1/2.0 * self.bounds.size.height)];
     [house closePath];
+    [[UIColor brownColor] setFill];
+    [house fill];
     [house stroke];
     
     UIBezierPath *chimney = [UIBezierPath bezierPath];
@@ -42,6 +44,8 @@
     [chimney addLineToPoint:CGPointMake(8/12.0 * self.bounds.size.width, 1/3.0 * self.bounds.size.height)];
     [chimney addLineToPoint:CGPointMake(8/12.0 * self.bounds.size.width, 8/18.0 * self.bounds.size.height)];
     [chimney closePath];
+    [[UIColor grayColor] setFill];
+    [chimney fill];
     [chimney stroke];
     
 }
