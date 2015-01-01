@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1124A9701A55278B00D68B9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1124A96F1A55278B00D68B9D /* Foundation.framework */; };
+		1124A9721A55278B00D68B9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1124A9711A55278B00D68B9D /* CoreGraphics.framework */; };
+		1124A9741A55278B00D68B9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1124A9731A55278B00D68B9D /* UIKit.framework */; };
+		1124A97A1A55278B00D68B9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1124A9781A55278B00D68B9D /* InfoPlist.strings */; };
+		1124A97C1A55278B00D68B9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1124A97B1A55278B00D68B9D /* main.m */; };
+		1124A9801A55278B00D68B9D /* XZZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1124A97F1A55278B00D68B9D /* XZZAppDelegate.m */; };
+		1124A9831A55278B00D68B9D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1124A9811A55278B00D68B9D /* Main_iPhone.storyboard */; };
+		1124A9861A55278B00D68B9D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1124A9841A55278B00D68B9D /* Main_iPad.storyboard */; };
+		1124A9891A55278B00D68B9D /* XZZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1124A9881A55278B00D68B9D /* XZZViewController.m */; };
+		1124A98B1A55278B00D68B9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1124A98A1A55278B00D68B9D /* Images.xcassets */; };
+		1124A9921A55278B00D68B9D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1124A9911A55278B00D68B9D /* XCTest.framework */; };
+		1124A9931A55278B00D68B9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1124A96F1A55278B00D68B9D /* Foundation.framework */; };
+		1124A9941A55278B00D68B9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1124A9731A55278B00D68B9D /* UIKit.framework */; };
+		1124A99C1A55278B00D68B9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1124A99A1A55278B00D68B9D /* InfoPlist.strings */; };
+		1124A99E1A55278B00D68B9D /* Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1124A99D1A55278B00D68B9D /* Drawing_a_HouseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1124A9951A55278B00D68B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1124A9641A55278B00D68B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1124A96B1A55278B00D68B9D;
+			remoteInfo = "Drawing a House";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1124A96C1A55278B00D68B9D /* Drawing a House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing a House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1124A96F1A55278B00D68B9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1124A9711A55278B00D68B9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1124A9731A55278B00D68B9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1124A9771A55278B00D68B9D /* Drawing a House-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing a House-Info.plist"; sourceTree = "<group>"; };
+		1124A9791A55278B00D68B9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1124A97B1A55278B00D68B9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1124A97D1A55278B00D68B9D /* Drawing a House-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drawing a House-Prefix.pch"; sourceTree = "<group>"; };
+		1124A97E1A55278B00D68B9D /* XZZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZZAppDelegate.h; sourceTree = "<group>"; };
+		1124A97F1A55278B00D68B9D /* XZZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZZAppDelegate.m; sourceTree = "<group>"; };
+		1124A9821A55278B00D68B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1124A9851A55278B00D68B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1124A9871A55278B00D68B9D /* XZZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZZViewController.h; sourceTree = "<group>"; };
+		1124A9881A55278B00D68B9D /* XZZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZZViewController.m; sourceTree = "<group>"; };
+		1124A98A1A55278B00D68B9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1124A9901A55278B00D68B9D /* Drawing a HouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing a HouseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1124A9911A55278B00D68B9D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1124A9991A55278B00D68B9D /* Drawing a HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing a HouseTests-Info.plist"; sourceTree = "<group>"; };
+		1124A99B1A55278B00D68B9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1124A99D1A55278B00D68B9D /* Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1124A9691A55278B00D68B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1124A9721A55278B00D68B9D /* CoreGraphics.framework in Frameworks */,
+				1124A9741A55278B00D68B9D /* UIKit.framework in Frameworks */,
+				1124A9701A55278B00D68B9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1124A98D1A55278B00D68B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1124A9921A55278B00D68B9D /* XCTest.framework in Frameworks */,
+				1124A9941A55278B00D68B9D /* UIKit.framework in Frameworks */,
+				1124A9931A55278B00D68B9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1124A9631A55278B00D68B9D = {
+			isa = PBXGroup;
+			children = (
+				1124A9751A55278B00D68B9D /* Drawing a House */,
+				1124A9971A55278B00D68B9D /* Drawing a HouseTests */,
+				1124A96E1A55278B00D68B9D /* Frameworks */,
+				1124A96D1A55278B00D68B9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1124A96D1A55278B00D68B9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1124A96C1A55278B00D68B9D /* Drawing a House.app */,
+				1124A9901A55278B00D68B9D /* Drawing a HouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1124A96E1A55278B00D68B9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1124A96F1A55278B00D68B9D /* Foundation.framework */,
+				1124A9711A55278B00D68B9D /* CoreGraphics.framework */,
+				1124A9731A55278B00D68B9D /* UIKit.framework */,
+				1124A9911A55278B00D68B9D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1124A9751A55278B00D68B9D /* Drawing a House */ = {
+			isa = PBXGroup;
+			children = (
+				1124A97E1A55278B00D68B9D /* XZZAppDelegate.h */,
+				1124A97F1A55278B00D68B9D /* XZZAppDelegate.m */,
+				1124A9811A55278B00D68B9D /* Main_iPhone.storyboard */,
+				1124A9841A55278B00D68B9D /* Main_iPad.storyboard */,
+				1124A9871A55278B00D68B9D /* XZZViewController.h */,
+				1124A9881A55278B00D68B9D /* XZZViewController.m */,
+				1124A98A1A55278B00D68B9D /* Images.xcassets */,
+				1124A9761A55278B00D68B9D /* Supporting Files */,
+			);
+			path = "Drawing a House";
+			sourceTree = "<group>";
+		};
+		1124A9761A55278B00D68B9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1124A9771A55278B00D68B9D /* Drawing a House-Info.plist */,
+				1124A9781A55278B00D68B9D /* InfoPlist.strings */,
+				1124A97B1A55278B00D68B9D /* main.m */,
+				1124A97D1A55278B00D68B9D /* Drawing a House-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1124A9971A55278B00D68B9D /* Drawing a HouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				1124A99D1A55278B00D68B9D /* Drawing_a_HouseTests.m */,
+				1124A9981A55278B00D68B9D /* Supporting Files */,
+			);
+			path = "Drawing a HouseTests";
+			sourceTree = "<group>";
+		};
+		1124A9981A55278B00D68B9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1124A9991A55278B00D68B9D /* Drawing a HouseTests-Info.plist */,
+				1124A99A1A55278B00D68B9D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1124A96B1A55278B00D68B9D /* Drawing a House */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1124A9A11A55278B00D68B9D /* Build configuration list for PBXNativeTarget "Drawing a House" */;
+			buildPhases = (
+				1124A9681A55278B00D68B9D /* Sources */,
+				1124A9691A55278B00D68B9D /* Frameworks */,
+				1124A96A1A55278B00D68B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drawing a House";
+			productName = "Drawing a House";
+			productReference = 1124A96C1A55278B00D68B9D /* Drawing a House.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1124A98F1A55278B00D68B9D /* Drawing a HouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1124A9A41A55278B00D68B9D /* Build configuration list for PBXNativeTarget "Drawing a HouseTests" */;
+			buildPhases = (
+				1124A98C1A55278B00D68B9D /* Sources */,
+				1124A98D1A55278B00D68B9D /* Frameworks */,
+				1124A98E1A55278B00D68B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1124A9961A55278B00D68B9D /* PBXTargetDependency */,
+			);
+			name = "Drawing a HouseTests";
+			productName = "Drawing a HouseTests";
+			productReference = 1124A9901A55278B00D68B9D /* Drawing a HouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1124A9641A55278B00D68B9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XZZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = 1st1k;
+				TargetAttributes = {
+					1124A98F1A55278B00D68B9D = {
+						TestTargetID = 1124A96B1A55278B00D68B9D;
+					};
+				};
+			};
+			buildConfigurationList = 1124A9671A55278B00D68B9D /* Build configuration list for PBXProject "Drawing a House" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1124A9631A55278B00D68B9D;
+			productRefGroup = 1124A96D1A55278B00D68B9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1124A96B1A55278B00D68B9D /* Drawing a House */,
+				1124A98F1A55278B00D68B9D /* Drawing a HouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1124A96A1A55278B00D68B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1124A9861A55278B00D68B9D /* Main_iPad.storyboard in Resources */,
+				1124A98B1A55278B00D68B9D /* Images.xcassets in Resources */,
+				1124A9831A55278B00D68B9D /* Main_iPhone.storyboard in Resources */,
+				1124A97A1A55278B00D68B9D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1124A98E1A55278B00D68B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1124A99C1A55278B00D68B9D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1124A9681A55278B00D68B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1124A97C1A55278B00D68B9D /* main.m in Sources */,
+				1124A9801A55278B00D68B9D /* XZZAppDelegate.m in Sources */,
+				1124A9891A55278B00D68B9D /* XZZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1124A98C1A55278B00D68B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1124A99E1A55278B00D68B9D /* Drawing_a_HouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1124A9961A55278B00D68B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1124A96B1A55278B00D68B9D /* Drawing a House */;
+			targetProxy = 1124A9951A55278B00D68B9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1124A9781A55278B00D68B9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1124A9791A55278B00D68B9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1124A9811A55278B00D68B9D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1124A9821A55278B00D68B9D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1124A9841A55278B00D68B9D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1124A9851A55278B00D68B9D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1124A99A1A55278B00D68B9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1124A99B1A55278B00D68B9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1124A99F1A55278B00D68B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1124A9A01A55278B00D68B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1124A9A21A55278B00D68B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing a House/Drawing a House-Prefix.pch";
+				INFOPLIST_FILE = "Drawing a House/Drawing a House-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1124A9A31A55278B00D68B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing a House/Drawing a House-Prefix.pch";
+				INFOPLIST_FILE = "Drawing a House/Drawing a House-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1124A9A51A55278B00D68B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Drawing a House.app/Drawing a House";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing a House/Drawing a House-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Drawing a HouseTests/Drawing a HouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1124A9A61A55278B00D68B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Drawing a House.app/Drawing a House";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing a House/Drawing a House-Prefix.pch";
+				INFOPLIST_FILE = "Drawing a HouseTests/Drawing a HouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1124A9671A55278B00D68B9D /* Build configuration list for PBXProject "Drawing a House" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1124A99F1A55278B00D68B9D /* Debug */,
+				1124A9A01A55278B00D68B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1124A9A11A55278B00D68B9D /* Build configuration list for PBXNativeTarget "Drawing a House" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1124A9A21A55278B00D68B9D /* Debug */,
+				1124A9A31A55278B00D68B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1124A9A41A55278B00D68B9D /* Build configuration list for PBXNativeTarget "Drawing a HouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1124A9A51A55278B00D68B9D /* Debug */,
+				1124A9A61A55278B00D68B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1124A9641A55278B00D68B9D /* Project object */;
+}
