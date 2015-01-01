@@ -37,10 +37,10 @@
     
     UIBezierPath *chimney = [UIBezierPath bezierPath];
     chimney.lineWidth = 2.0;
-    [chimney moveToPoint:CGPointMake(7/12.0 * self.bounds.size.width, 46/120.0 * self.bounds.size.height)];
+    [chimney moveToPoint:CGPointMake(7/12.0 * self.bounds.size.width, 7/18.0 * self.bounds.size.height)];
     [chimney addLineToPoint:CGPointMake(7/12.0 * self.bounds.size.width, 1/3.0 * self.bounds.size.height)];
     [chimney addLineToPoint:CGPointMake(8/12.0 * self.bounds.size.width, 1/3.0 * self.bounds.size.height)];
-    [chimney addLineToPoint:CGPointMake(8/12.0 * self.bounds.size.width, 53/120.0 * self.bounds.size.height)];
+    [chimney addLineToPoint:CGPointMake(8/12.0 * self.bounds.size.width, 8/18.0 * self.bounds.size.height)];
     [chimney closePath];
     [chimney stroke];
     
